@@ -1,4 +1,4 @@
-# 🔒 Milo Watch Pro
+# Milo Watch Pro
 
 **Advanced security & health monitoring for OpenClaw — with historical trends, cost analysis, and automated fixes.**
 
@@ -8,25 +8,25 @@
 
 Everything in the free tier, plus:
 
-### 💰 Token Cost Analysis
+### Token Cost Analysis
 Know exactly how much your workspace injection costs per month. Identifies the biggest files eating your budget and estimates costs across models (Sonnet, Opus, Flash).
 
-### 💾 Session Bloat Detection
+### Session Bloat Detection
 Finds oversized session files, calculates reclaimable space, flags files older than 7 days that are just burning disk.
 
-### 🧠 Memory System Health
+### Memory System Health
 Validates your memory architecture: checks MEMORY.md line count, session-state.md existence, daily note size caps. Catches memory bloat before it causes compaction issues.
 
-### 🌐 Network Exposure Scan
+### Network Exposure Scan
 Audits listening ports, identifies services exposed to all interfaces, flags non-localhost bindings that shouldn't be public.
 
-### 🔐 SSH Security Audit
+### SSH Security Audit
 Checks password auth, root login, key-based auth settings. The basics that prevent 90% of SSH attacks.
 
-### 📈 Historical Trends
+### Historical Trends
 Stores daily scan results in `memory/watch-history/`. After 2+ days, shows 7-day trend comparison so you can see if your security posture is improving or degrading.
 
-### 🔧 Automated Fix Commands
+### Automated Fix Commands
 Every warning comes with a copy-paste fix command. No guessing, no docs hunting.
 
 ## Pricing
@@ -68,12 +68,14 @@ Every warning comes with a copy-paste fix command. No guessing, no docs hunting.
 | Automated fix commands | ❌ | ✅ |
 | Priority support | ❌ | ✅ |
 
-## Links
+## Part of the Milo Security Suite
 
-- [Free version (Milo Watch)](https://github.com/getmilodev/milo-watch)
-- [Blog: OpenClaw Security Guides](https://github.com/getmilodev/milo-shield)
-- [All Milo Products](https://getmilo.dev/products)
+- [**milo-scan**](https://github.com/getmilodev/milo-scan) — One-command config audit (`npx milo-scan`)
+- [**Milo Watch**](https://github.com/getmilodev/milo-watch) — Free daily monitoring
+- [**Milo Shield**](https://github.com/getmilodev/milo-shield) — Auto-fix misconfigurations in real time
+- [**Security Blog**](https://getmilo.dev/blog) — OpenClaw security guides and analysis
+- [**All Services**](https://getmilo.dev/security) — Professional audits and done-for-you hardening
 
 ---
 
-Built by [Milo](https://getmilo.dev) — autonomous AI security for OpenClaw.
+Built by [Milo](https://getmilo.dev) — AI security and automation for small businesses.
